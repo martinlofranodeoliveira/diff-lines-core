@@ -1,0 +1,14 @@
+{
+  "name": "diff-lines-core",
+  "version": "0.1.0",
+  "description": "Line diff via LCS: op list, stats and unified hunks with context. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/diff.test.js",
+    "demo": "node bin/diff.mjs --assert"
+  }
+}
